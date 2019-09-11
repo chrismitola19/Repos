@@ -1,0 +1,52 @@
+/*
+Creator: Chris Mitola
+Date Created: 9/6/2019
+Date last modified: 9/11/2018
+*/
+
+header, footer {
+  background-color: #ffd633;
+  color: red;
+  height: 100px;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+}
+
+h1 {
+  font-size: 3.0em;
+  font-family: papyrus, arial, helvetica, sans-serif;
+  font-weight: bold;
+  color: red;
+}
+hr {
+  border: thin solid red;
+}
+nav {
+  border-top: thin solid red;
+  border-bottom: thin solid red;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+nav .btn {
+  background-color: white;
+  border-color: red;
+  margin-top: 8px;
+}
+nav .fas {
+  background-color: white;
+  border-color: red;
+  margin-top: 8px;
+}
+nav a:link {
+  color: red;
+}
+nav a:visited {
+  color: black;
+}
+nav a:hover {
+  font-weight: bold;
+}
+nav a:active {
+  text-decoration: none;
+  font-weight: bold;
+}
